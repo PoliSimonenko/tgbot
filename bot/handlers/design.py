@@ -64,7 +64,7 @@ def register_design_handlers(bot):
         bot.send_message(
             chat_id,
             f"Вы выбрали: {message.text}\n\n"
-            "Теперь пришлите фото эскиза или текстовое описание:",
+            "Теперь пришлите фото эскиза:",
             reply_markup=get_back_button()
         )
 
